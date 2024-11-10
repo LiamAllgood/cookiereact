@@ -1,0 +1,28 @@
+/* index.css */
+
+/* Centering the app and styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+  /* Button styles */
+button {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+  
+  /* Image styles */
+  img {
+    transition: transform 0.2s;
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+  }
